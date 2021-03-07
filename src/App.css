@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+:root {
+    --primery-color: #596172;
+    --secondary-color: #949FB7;
+    --accent-color: #7540EE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*:focus {
+    outline: 1px solid var(--accent-color);
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    margin: 0;
+
+    background: #F2F2F2;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primery-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+p {
+    margin: 0;
+}
+
+/* Левое боковая панель */
+.left-sidebar {
+    background-color: yellow;
+}
+
+/* Основной контект */
+/* .main {} */
+
+.post {
+    min-height: 500px;
+    border: 1px solid #D9DDE7;
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+.post__header {
+    display: flex;
+
+    padding: 15px;
+
+    color: var(--secondary-color);
+}
+
+.post__from a {
+    color: var(--primery-color);
+}
+
+.post__time {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--secondary-color);
+}
+
+.post__img {
+    width: 100%;
+}
+
+.post__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 15px;
+}
+
+
+.post__btns {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    border: none;
+
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+.btn:hover svg {
+    fill: #7783a5;
+}
+
+.btn:focus svg {
+    fill: var(--accent-color);
+}
+
+.post__btn {
+    background-color: transparent;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primery-color);
+}
+
+.comment__btn {
+    background-color: transparent;
+
+    font-size: 12px;
+    color: var(--primery-color);
+}
+
+.post__comments-number {
+    font-weight: 400;
+}
+
+.btn > span {
+    margin-left: 10px;
+}
+
+.post__btn + .post__btn {
+    margin-left: 30px;
+}
+
+
+.comment {
+    display: flex;
+
+    padding: 30px;
+}
+
+.comment a {
+    flex-shrink: 0;
+}
+
+.comment__content {
+    /* display: flex; */
+}
+
+.comment__text {
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+
+}
+
+.comment-name {
+    color: var(--primery-color);
+
+}
+
+.comment__btns {
+    display: flex;
+}
+
+.comment__btn + .comment__btn {
+    margin-left: 15px;
+}
+
+
+/* Правая боковая панель */
+.rigth-sidebar {
+    background-color: blue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(200px, 270px) minmax(500px, 1fr) minmax(200px, 270px);
+    gap: 30px;
+
+    min-height: 700px;
+    margin-top: 30px;
 }

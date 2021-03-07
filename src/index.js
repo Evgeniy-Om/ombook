@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const user = [{
+   name: "Anthony Wood",
+   avatarUrl: "images/avatar-1.jpg"
+}]
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App user = {user} />
   </React.StrictMode>,
   document.getElementById('root')
 );
