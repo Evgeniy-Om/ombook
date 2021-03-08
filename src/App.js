@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header";
-import Post from "./components/post/Post";
+import Header from "./components/Header/Header";
+import Post from "./components/Post/Post";
 
 function App(props) {
    const user = props.user;
 
    return (
       <div className="App">
-         <Header/>
+         <Header user = {user}/>
          <div className="container">
             <div className="wrapper">
                <aside className="left-sidebar">Left</aside>

@@ -1,19 +1,20 @@
 import styles from './avatar.module.css';
 
-const Avatar = (props) => {
-   let classes = styles.root;
-   switch (props.size) {
+const Avatar = ({size, avatarUrl, name}) => {
+   let classes = styles.img;
+
+   switch (size) {
       case "30":
       case "48":
       case "120":
-         classes += ` ${styles[`root_size${props.size}`]}`;
+         classes += ` ${styles[`img_size${size}`]}`;
          break;
       default:
          break;
    }
    return (
-      <a className={classes} href="#">
-         <img src={props.user[0].avatarUrl} alt={props.user[0].name}/>
+      <a className={styles.root} href="#">
+         <img className={classes} src={avatarUrl} alt={name}/>
       </a>
    )
 };

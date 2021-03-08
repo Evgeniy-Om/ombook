@@ -1,19 +1,13 @@
-import LikeBtn from "./like-btn/LikeBtn";
+import LikeBtn from "./LikeBtn/LikeBtn";
 import Avatar from "../generic/Avatar/Avatar";
+import styles from "./post.module.css";
+import Header from "./Header/Header";
 
 const Post = (props) => {
    const user = props.user;
    return (
-      <div className="post">
-         <header className="post__header">
-
-            <Avatar size = "40" user = {user}/>
-
-            <div className="post__header-title">
-               <p className="post__from"><a href="#">Anthony Wood</a> shared a <a href="#">image</a></p>
-               <p className="post__time">Yesterday at 1:08 AM</p>
-            </div>
-         </header>
+      <article className={styles.root + " border"}>
+         <Header user = {user}/>
          <img className="post__img" src="images/post-img-1.jpg"/>
          <div className="post__text">
             <p>Friendship ... is born at the moment when one man says to another "What! You too? I
@@ -35,9 +29,7 @@ const Post = (props) => {
          </div>
 
          <div className="comment">
-            <a className="avatar" href="#">
-               <img src="images/avatar-1.jpg"/>
-            </a>
+            <Avatar avatarUrl = {props.user[0].avatarUrl} name = {props.user[0].name}/>
             <div className="comment__content">
                <p className="comment__text">
                   <a href="#" className="comment-name">Anthony Wood</a> I think I'm crying. It's that
@@ -64,7 +56,7 @@ const Post = (props) => {
                </div>
             </div>
          </div>
-      </div>
+      </article>
    )
 }
 

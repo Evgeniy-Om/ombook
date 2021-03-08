@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const user = [{
-   name: "Anthony Wood",
-   avatarUrl: "images/avatar-1.jpg"
-}]
+const user = [
+   { name: "Anthony Wood", avatarUrl: "images/avatar-1.jpg"},
+   { name: "Carolyn Campbell", avatarUrl: "images/avatar-2.jpg"}
+]
 
 ReactDOM.render(
   <React.StrictMode>

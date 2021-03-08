@@ -1,6 +1,7 @@
 import s from './header.module.css'
+import Avatar from "../generic/Avatar/Avatar";
 
-const Header = () => {
+const Header = (props) => {
    return (
       <header className={s.header}>
          <div className="container">
@@ -35,9 +36,15 @@ const Header = () => {
                   </li>
                </ul>
                {/*<!-- Пользователь -->*/}
+
+
                <div className="header__user user">
+                  <Avatar
+                     size = "30"
+                     avatarUrl = {props.user[1].avatarUrl}
+                     name = {props.user[1].name}
+                  />
                   <a className="user__link" href="#" title="Carolyn">
-                     <img className="user__img" src="images/user-avatar.jpg" width="30" height="30"/>
                      <span className="user__short-name">Carolyn</span>
                   </a>
                </div>

@@ -56,6 +56,11 @@ p {
     margin: 0;
 }
 
+.border {
+    border: 1px solid #D9DDE7;
+    border-radius: 5px;
+}
+
 /* Левое боковая панель */
 .left-sidebar {
     background-color: yellow;
@@ -64,48 +69,7 @@ p {
 /* Основной контект */
 /* .main {} */
 
-.post {
-    min-height: 500px;
-    border: 1px solid #D9DDE7;
-    border-radius: 5px;
 
-    background-color: white;
-}
-
-.post__header {
-    display: flex;
-
-    padding: 15px;
-
-    color: var(--secondary-color);
-}
-
-.post__from a {
-    color: var(--primery-color);
-}
-
-.post__time {
-    font-size: 12px;
-    line-height: 14px;
-    color: var(--secondary-color);
-}
-
-.post__img {
-    width: 100%;
-}
-
-.post__text {
-    font-size: 16px;
-    line-height: 22px;
-    margin: 15px;
-}
-
-
-.post__btns {
-    display: flex;
-    margin-left: 15px;
-    margin-bottom: 20px;
-}
 
 .btn {
     display: flex;
