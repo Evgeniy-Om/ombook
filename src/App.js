@@ -2,6 +2,7 @@
 import './App.css';
 import Header from "./components/Header/Header";
 import Post from "./components/Post/Post";
+import Newsfeed from "./pages/Newsfeed/Newsfeed";
 
 function App({user}) {
    return (
@@ -9,11 +10,7 @@ function App({user}) {
          <Header user = {user}/>
          <div className="container">
             <div className="wrapper">
-               <aside className="left-sidebar">Left</aside>
-               <main className="main">
-                  <Post user = {user}/>
-               </main>
-               <aside className="rigth-sidebar">Right</aside>
+               <Newsfeed/>
             </div>
          </div>
       </div>

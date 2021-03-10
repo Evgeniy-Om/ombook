@@ -64,12 +64,16 @@ p {
 
 /* Левое боковая панель */
 .left-sidebar {
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 /* Основной контект */
 /* .main {} */
 
+/* Правая боковая панель */
+.right-sidebar {
+    background-color: blue;
+}
 
 
 .btn {
@@ -155,10 +159,7 @@ p {
 }
 
 
-/* Правая боковая панель */
-.rigth-sidebar {
-    background-color: blue;
-}
+
 
 .wrapper {
     display: grid;
