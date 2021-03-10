@@ -1,0 +1,6 @@
+._ {
+    font-size: 0;
+}
+._:hover svg {
+    fill: var(--hover-color);
+}

@@ -1,0 +1,41 @@
+._ {
+  composes: border from "../../App.css";
+  background-color: white;
+}
+
+.post__img {
+  width: 100%;
+}
+
+.post__text {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 15px;
+}
+
+
+.post__btns {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+
+  padding: 15px;
+
+  color: var(--secondary-color);
+}
+
+/* Отступ от Аватарки вправо */
+.header > a {
+  margin-right: 15px;
+}
+
+
+.post__time {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--secondary-color);
+}

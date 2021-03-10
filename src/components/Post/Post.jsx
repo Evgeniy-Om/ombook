@@ -1,13 +1,23 @@
-import LikeBtn from "./LikeBtn/LikeBtn";
-import Avatar from "../generic/Avatar/Avatar";
-import styles from "./post.module.css";
-import Header from "./Header/Header";
+import LikeBtn from "./components/LikeBtn";
+import Avatar from "../generic/Avatar";
+import styles from "./Post.module.css";
+import UserName from "../generic/UserName";
 
 const Post = (props) => {
    const user = props.user;
    return (
-      <article className={styles.root + " border"}>
-         <Header user = {user}/>
+      <article className={styles._}>
+         <header className={styles.header}>
+            <Avatar avatarUrl = {props.user[0].avatarUrl} name = {props.user[0].name}/>
+
+            <div>
+               <p>
+                  <UserName name = {props.user[0].name}/> shared a <a href="#">image</a>
+               </p>
+               <p className="post__time">Yesterday at 1:08 AM</p>
+            </div>
+         </header>
+
          <img className="post__img" src="images/post-img-1.jpg"/>
          <div className="post__text">
             <p>Friendship ... is born at the moment when one man says to another "What! You too? I

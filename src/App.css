@@ -2,6 +2,7 @@
     --primery-color: #596172;
     --secondary-color: #949FB7;
     --accent-color: #7540EE;
+    --hover-color: #7783a5;
 }
 
 html {
@@ -85,7 +86,7 @@ p {
 }
 
 .btn:hover svg {
-    fill: #7783a5;
+    fill: var(--hover-color);
 }
 
 .btn:focus svg {

@@ -1,0 +1,20 @@
+._ {
+    grid-column-start: 1;
+    grid-column-end  : 4;
+    width            : 100%;
+
+    background-color: #fff;
+    box-shadow      : 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    display    : flex;
+    align-items: center;
+
+    height: 70px;
+}
+
+
+.header__settings-btn {
+    font-size: 0;
+}

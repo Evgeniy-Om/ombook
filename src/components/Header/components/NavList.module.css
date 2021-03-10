@@ -1,0 +1,21 @@
+._ {
+    display    : flex;
+    align-items: center;
+    margin-right: 35px;
+    padding    : 0;
+
+    list-style-type: none;
+}
+
+.item {
+    font-size  : 0;
+}
+
+.item + .item {
+    margin-left: 30px;
+    font-size  : 0;
+}
+
+.item:hover svg {
+    fill: var(--hover-color);
+}

@@ -3,9 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Post from "./components/Post/Post";
 
-function App(props) {
-   const user = props.user;
-
+function App({user}) {
    return (
       <div className="App">
          <Header user = {user}/>

@@ -1,0 +1,28 @@
+._ {
+    margin-right: 25px;
+    padding: 5px 15px 5px 5px;
+
+
+    font-size: 14px;
+    white-space: nowrap;
+    color: var(--primery-color);
+    border-radius: 30px;
+}
+
+._:hover {
+    background-color: #eceef8;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.name {
+    vertical-align: middle;
+}
+

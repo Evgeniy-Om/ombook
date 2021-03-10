@@ -9,7 +9,7 @@ const state = {
       events: 4,
       nameFirstEvent: "Tiffany Crawford"
    },
-   profilePage: {
+   newsfeedPage: {
 
    },
    stories: [

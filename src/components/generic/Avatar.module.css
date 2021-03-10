@@ -1,28 +1,30 @@
-
-.root {
+._ {
   display: block;
-
-
-}
-
-.img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.img_size30 {
+._ img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  composes: _;
   width: 30px;
   height: 30px;
 }
 
-.img_size48 {
+.members {
+  composes: _;
   width: 48px;
   height: 48px;
 }
 
-.img_size120 {
+.profile {
+  composes: _;
   width: 120px;
   height: 120px;
 }

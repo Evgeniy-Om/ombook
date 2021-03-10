@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const user = [
    { name: "Anthony Wood", avatarUrl: "images/avatar-1.jpg"},
-   { name: "Carolyn Campbell", avatarUrl: "images/avatar-2.jpg"}
+   { name: "Carolyn Campbell", shortName: "Carolyn", avatarUrl: "images/avatar-2.jpg"}
 ]
 
 ReactDOM.render(
