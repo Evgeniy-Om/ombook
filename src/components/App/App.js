@@ -1,8 +1,7 @@
-// import logo from './logo.svg';
+
 import './App.css';
-import Header from "./components/Header/Header";
-import Post from "./components/Post/Post";
-import Newsfeed from "./pages/Newsfeed/Newsfeed";
+import Header from "../Header/_Header";
+import Newsfeed from "../../pages/Newsfeed/_Newsfeed";
 
 function App({user}) {
    return (
@@ -10,7 +9,7 @@ function App({user}) {
          <Header user = {user}/>
          <div className="container">
             <div className="wrapper">
-               <Newsfeed/>
+               <Newsfeed user = {user}/>
             </div>
          </div>
       </div>

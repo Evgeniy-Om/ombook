@@ -19,7 +19,18 @@ const state = {
          {name: "Kathleen Campbell", avatarUrl: "images/avatar-3.jpg", date: "Today at 1:08 AM"},
          {name: "Anthony Wood", avatarUrl: "images/avatar-1.jpg", date: "Yesterday at 1:08 AM"},
          {name: "Tiffany Crawford", avatarUrl: "images/avatar-4.jpg", date: "Yesterday at 1:08 AM"},
-      ]
+      ],
+      groups: [
+         {name: "Designers team", url: "#", favicon: ""},
+         {name: "Where to travel", url: "#", favicon: ""},
+         {name: "Nice place to visit", url: "#", favicon: ""},
+      ],
+      explore: [
+         {name: "Events near you", url: "#", favicon: ""},
+         {name: "Saved posts", url: "#", favicon: ""},
+         {name: "Wishlist shopping", url: "#", favicon: ""},
+      ],
    },
-
 }
+
+export default state;

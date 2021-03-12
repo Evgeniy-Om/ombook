@@ -1,5 +1,5 @@
 ._ {
-  composes: border from "../../App.css";
+  composes: border from "../App/App.css";
   background-color: white;
 }
 

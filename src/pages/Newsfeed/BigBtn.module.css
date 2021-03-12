@@ -1,0 +1,35 @@
+._ {
+
+}
+
+._ + ._ {
+  margin-top: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+
+  padding-left: 15px;
+
+  width: 100%;
+  height: 50px;
+}
+
+._ svg {
+  margin-right: 15px;
+}
+
+._:hover {
+  background-color: #fff;
+  overflow: hidden;
+  color: var(--accent-color);
+}
+
+._:hover .link {
+  color: var(--accent-color);
+}
+
+._:hover svg {
+  fill: var(--accent-color);
+}
