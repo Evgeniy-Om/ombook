@@ -1,4 +1,4 @@
-._ {
+.root {
     margin-right: 25px;
     padding: 5px 15px 5px 5px;
 
@@ -9,7 +9,7 @@
     border-radius: 30px;
 }
 
-._:hover {
+.root:hover {
     background-color: #eceef8;
 }
 

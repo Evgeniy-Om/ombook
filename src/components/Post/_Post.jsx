@@ -12,7 +12,7 @@ const Post = (props) => {
 
             <div>
                <p>
-                  <AuthorName name = {props.user[0].name}/> shared a <a href="#">image</a>
+                  <AuthorName/> shared a <a href="#">image</a>
                </p>
                <p className="post__time">Yesterday at 1:08 AM</p>
             </div>

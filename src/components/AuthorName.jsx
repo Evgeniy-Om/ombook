@@ -1,8 +1,8 @@
 import styles from "./AuthorName.module.css";
 
-const AuthorName = ({name}) => {
+const AuthorName = (props) => {
  return (
-    <a className={styles.root} href="#">{props.name}</a>
+    <a className={styles.root} href="#">Что это за фигня?</a>
  )
 }
 

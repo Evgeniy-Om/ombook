@@ -1,0 +1,19 @@
+._ {
+    display: flex;
+
+    padding: 15px;
+
+    color: var(--secondary-color);
+}
+
+/* Отступ от Аватарки вправо */
+._ > a {
+    margin-right: 15px;
+}
+
+
+.time {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--secondary-color);
+}

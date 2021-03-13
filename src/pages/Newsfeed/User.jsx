@@ -1,10 +1,10 @@
 import styles from "./User.module.css";
 
-const User = ({user}) => {
+const User = ({src, name, fullName}) => {
    return (
       <a className={styles._} href="#">
-         <img className={styles.img} src={user.avatarUrl} alt={user.name}/>
-         <span className={styles.name}>{user.fullName}</span>
+         <img className={styles.img} src={src} alt={name}/>
+         <span className={styles.name}>{fullName}</span>
       </a>
    )
 }
