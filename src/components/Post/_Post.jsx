@@ -1,7 +1,6 @@
 import LikeBtn from "./LikeBtn";
-import Avatar from "../Avatar";
+import Avatar from "./Avatar";
 import styles from "./_Post.module.css";
-import AuthorName from "../AuthorName";
 
 const Post = (props) => {
    const user = props.user;
@@ -12,7 +11,7 @@ const Post = (props) => {
 
             <div>
                <p>
-                  <AuthorName/> shared a <a href="#">image</a>
+                  shared a <a href="#">image</a>
                </p>
                <p className="post__time">Yesterday at 1:08 AM</p>
             </div>

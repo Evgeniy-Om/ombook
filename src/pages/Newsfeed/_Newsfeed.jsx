@@ -2,6 +2,7 @@ import styles from "./_Newsfeed.module.css";
 import BigBtn from "./BigBtn";
 import User from "./User";
 import Stories from "./Stories";
+import Post from "../../components/Post/_Post";
 
 const Newsfeed = ({user, page}) => {
    return (
@@ -19,7 +20,9 @@ const Newsfeed = ({user, page}) => {
                <BigBtn type="Location"/>
             </ul>
          </aside>
-         <main className="main">121212</main>
+         <main className="main">
+            <Post/>
+         </main>
          <aside className="right-sidebar">
             <Stories stories={page.stories}/>
          </aside>

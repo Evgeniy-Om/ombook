@@ -16,9 +16,9 @@ const state = {
    },
    newsfeedPage: {
       stories: [
-         {name: "Kathleen Campbell", avatarUrl: "images/avatar-3.jpg", date: "Today at 1:08 AM"},
-         {name: "Anthony Wood", avatarUrl: "images/avatar-1.jpg", date: "Yesterday at 1:08 AM"},
-         {name: "Tiffany Crawford", avatarUrl: "images/avatar-4.jpg", date: "Yesterday at 1:08 AM"},
+         {name: "Kathleen Campbell", avatarUrl: "images/avatar-3.jpg", url: "#", date: "Today at 1:08 AM"},
+         {name: "Anthony Wood", avatarUrl: "images/avatar-1.jpg", url: "#", date: "Yesterday at 1:08 AM"},
+         {name: "Tiffany Crawford", avatarUrl: "images/avatar-4.jpg", url: "#", date: "Yesterday at 1:08 AM"},
       ],
       groups: [
          {name: "Designers team", url: "#", favicon: ""},

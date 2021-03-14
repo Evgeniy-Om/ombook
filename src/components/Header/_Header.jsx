@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import Search from "./Search";
 import NavList from "./NavList";
-import User from "../User";
+import User from "./User";
 import styles from './_Header.module.css'
 import SettingsBtn from "./SettingsBtn";
 
