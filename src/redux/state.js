@@ -30,7 +30,53 @@ const state = {
          {name: "Saved posts", url: "#", favicon: ""},
          {name: "Wishlist shopping", url: "#", favicon: ""},
       ],
-   },
+      posts: [
+         {
+            author: {
+               name: "Kathleen Campbell",
+               avatarUrl: "images/avatar-3.jpg",
+               profileUrl: "#",
+            },
+            content: {
+               type: "post",
+               date: "Today at 1:08 AM",
+               text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+               hashtags: "#stateofmind",
+               likes: 322,
+               totalComments: 32,
+               comments: [
+                  {
+                     author: {
+                        name: "Kathleen Campbell",
+                        avatarUrl: "images/avatar-3.jpg",
+                        profileUrl: "#",
+                     },
+                     content: {
+                        date: "Today at 1:08 AM",
+                        text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+                        hashtags: "#stateofmind",
+                        likes: 21,
+                        replies: [
+                           {
+                              author: {
+                                 name: "Kathleen Campbell",
+                                 avatarUrl: "images/avatar-3.jpg",
+                                 profileUrl: "#",
+                              },
+                              content: {
+                                 date: "Today at 1:08 AM",
+                                 text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+                                 likes: 21,
+                              }
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         }
+      ]
+   }
 }
 
 export default state;

@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931163ff-8bf6-4527-a5bd-235bbe481eb9" name="Default Changelist" comment="avatar component">
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Avatar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/avatar-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorName.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthorName.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Avatar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Avatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Avatar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/_Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/_Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/_Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/User.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/User.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +79,7 @@
       <workItem from="1615130531202" duration="22602000" />
       <workItem from="1615205228822" duration="1253000" />
       <workItem from="1615206527651" duration="29605000" />
-      <workItem from="1615389203393" duration="50381000" />
+      <workItem from="1615389203393" duration="52457000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1614772194880</created>
@@ -138,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615659860385</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stories is done">
+      <created>1615725832797</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615725832797</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +167,8 @@
     <MESSAGE value="Started splitting the project into pages. Started making page &quot;Newsfeed&quot;" />
     <MESSAGE value="refactoring the file structure" />
     <MESSAGE value="refactoring continues. Making Stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring continues. Making Stories" />
+    <MESSAGE value="Stories is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stories is done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
