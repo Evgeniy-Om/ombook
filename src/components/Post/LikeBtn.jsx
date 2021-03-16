@@ -1,22 +1,22 @@
-const LikeBtn = (props) => {
-   let likesNum = props.likes,
-      likesStr = '';
+import styles from "./LikeBtn.module.css";
+
+const LikeBtn = ({likes}) => {
+   let likesStr = '';
 
    // Количество лайков в виде строки
-   if (likesNum === 1) {
+   if (likes === 1) {
       likesStr = '1 like';
-   } else if (likesNum > 1) {
-      if (likesNum > 1000) {
-         likesStr = `${(likesNum / 1000).toFixed(1)}k likes`;
+   } else if (likes > 1) {
+      if (likes > 1000) {
+         likesStr = `${(likes / 1000).toFixed(1)}k likes`;
       } else {
-         likesStr = `${likesNum} likes`;
+         likesStr = `${likes} likes`;
       }
    }
 
    return (
-      <button className="post__btn btn">
-         <svg width="19" height="20" viewBox="0 0 19 20" fill="#949FB7"
-              xmlns="http://www.w3.org/2000/svg">
+      <button className={styles._}>
+         <svg width="19" height="20" viewBox="0 0 19 20" fill="#949FB7">
             <path
                d="M2.88393 14.5893C1.94852 14.5893 1.1875 15.3503 1.1875 16.2857C1.1875 17.2211 1.94852 17.9821 2.88393 17.9821C3.81934 17.9821 4.58036 17.2211 4.58036 16.2857C4.58036 15.3503 3.81934 14.5893 2.88393 14.5893Z"/>
             <path fillRule="evenodd" clipRule="evenodd"

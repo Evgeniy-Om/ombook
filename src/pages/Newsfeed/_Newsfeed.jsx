@@ -21,12 +21,11 @@ const Newsfeed = ({user, page}) => {
             </ul>
          </aside>
          <main className="main">
-            <Post/>
+            <Post post = {page.posts[0]}/>
          </main>
          <aside className="right-sidebar">
             <Stories stories={page.stories}/>
          </aside>
-         <a className={styles._} href="/newsfeed">121212</a>
       </>
    )
 }

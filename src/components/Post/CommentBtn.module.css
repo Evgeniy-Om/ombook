@@ -1,4 +1,7 @@
 ._ {
     composes: btn from "./_Post.module.css";
-    margin-right: 30px;
+}
+
+.totalComments {
+    font-weight: 400;
 }

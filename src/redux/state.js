@@ -40,10 +40,14 @@ const state = {
             content: {
                type: "post",
                date: "Today at 1:08 AM",
+               gallery: {
+                  totalImages: 12,
+                  previewUrl: ["images/post-img-1.jpg", "images/post-img-1.jpg", "images/post-img-1.jpg"]
+               },
                text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
-               hashtags: "#stateofmind",
-               likes: 322,
-               totalComments: 32,
+               hashtags: ["#stateofmind"],
+               likes: 93291,
+               totalComments: 37,
                comments: [
                   {
                      author: {

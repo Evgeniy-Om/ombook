@@ -1,0 +1,17 @@
+._ {
+    display: flex;
+
+    padding: 15px;
+
+    color: var(--secondary-color);
+}
+
+.time {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--secondary-color);
+}
+
+.typePost {
+    color: var(--primery-color);
+}

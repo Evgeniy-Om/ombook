@@ -3,39 +3,39 @@
   background-color: white;
 }
 
-.post__img {
-  width: 100%;
-}
-
-.post__text {
-  font-size: 16px;
-  line-height: 22px;
-  margin: 15px;
-}
-
-
-.post__btns {
+.boxBtn {
   display: flex;
+
   margin-left: 15px;
   margin-bottom: 20px;
 }
 
-.header {
+.btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
-  padding: 15px;
+  padding: 0;
+  border: none;
 
-  color: var(--secondary-color);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primery-color);
+
+  background-color: transparent;
+  cursor: pointer;
 }
 
-/* Отступ от Аватарки вправо */
-.header > a {
-  margin-right: 15px;
+.btn:hover svg {
+  fill: var(--hover-color);
 }
 
-
-.post__time {
-  font-size: 12px;
-  line-height: 14px;
-  color: var(--secondary-color);
+.btn:focus svg {
+  fill: var(--hover-color);
 }
+
+.btn > span {
+  margin-left: 10px;
+}
+

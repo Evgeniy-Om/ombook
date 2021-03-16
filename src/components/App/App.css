@@ -2,7 +2,7 @@
     --primery-color: #596172;
     --secondary-color: #949FB7;
     --accent-color: #7540EE;
-    --hover-color: #7783a5;
+    --hover-color: #5f6a85;
 }
 
 html {
@@ -48,6 +48,15 @@ body {
     padding: 0 15px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(200px, 270px) 570px 270px;
+    gap: 30px;
+
+    min-height: 700px;
+    margin-top: 30px;
+}
+
 a {
     text-decoration: none;
     color: var(--primery-color);
@@ -62,66 +71,11 @@ p {
     border-radius: 5px;
 }
 
-/* Левое боковая панель */
-.left-sidebar {
-    /*background-color: yellow;*/
-}
-
-/* Основной контект */
-/* .main {} */
-
-/* Правая боковая панель */
-.right-sidebar {
-    /*background-color: blue;*/
-}
-
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 0;
-    border: none;
-
-    font-family: inherit;
-
-    cursor: pointer;
-}
-
-.btn:hover svg {
-    fill: var(--hover-color);
-}
-
-.btn:focus svg {
-    fill: var(--accent-color);
-}
-
-.post__btn {
-    background-color: transparent;
-
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--primery-color);
-}
-
 .comment__btn {
     background-color: transparent;
 
     font-size: 12px;
     color: var(--primery-color);
-}
-
-.post__comments-number {
-    font-weight: 400;
-}
-
-.btn > span {
-    margin-left: 10px;
-}
-
-.post__btn + .post__btn {
-    margin-left: 30px;
 }
 
 
@@ -161,11 +115,3 @@ p {
 
 
 
-.wrapper {
-    display: grid;
-    grid-template-columns: minmax(200px, 270px) minmax(500px, 1fr) minmax(200px, 270px);
-    gap: 30px;
-
-    min-height: 700px;
-    margin-top: 30px;
-}
