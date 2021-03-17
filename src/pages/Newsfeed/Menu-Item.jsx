@@ -1,6 +1,7 @@
-import styles from "./BigBtn.module.css";
+import styles from "./Menu-Item.module.css";
+import {Link, NavLink} from "react-router-dom";
 
-const BigBtn = ({type}) => {
+const MenuItem = ({type}) => {
    let icon;
    switch (type) {
       case "Newsfeed":
@@ -34,9 +35,9 @@ const BigBtn = ({type}) => {
    console.log(type.toLowerCase());
    return (
       <li className={styles._ + " border"}>
-         <a className={styles.link} href={`/${type.toLowerCase()}`}>{icon}{type}</a>
+         <NavLink activeClassName={styles.active} className={styles.link} to={`/${type.toLowerCase()}`}>{icon}{type}</NavLink>
       </li>
    )
 }
 
-export default BigBtn;
+export default MenuItem;

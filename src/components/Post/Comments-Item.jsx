@@ -5,6 +5,7 @@ import Avatar from "./Avatar";
 const CommentsItem = ({comments}) => {
    const {author, content} = comments;
    return (
+
       <div className="comment">
          <Avatar author={author}/>
          <div className="comment__content">

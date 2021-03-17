@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="931163ff-8bf6-4527-a5bd-235bbe481eb9" name="Default Changelist" comment="avatar component">
-      <change afterPath="$PROJECT_DIR$/src/components/Post/CommentBtn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/CommentBtn.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Comments-Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Comments-Item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Comments.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Comments.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Gallery.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Text.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Post/Text.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Messenger/_Messenger.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Messenger/_Messenger.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Avatar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Avatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Avatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Avatar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/LikeBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/LikeBtn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/LikeBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/LikeBtn.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/NavList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NavList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Comments-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Comments-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Comments.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Post/_Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/_Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/_Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/_Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/BigBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/BigBtn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSPX" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Newsfeed" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,9 +64,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed" />
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\Post" />
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Messenger" />
-      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed" />
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed\components" />
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\Header\components" />
     </key>
@@ -106,7 +91,8 @@
       <workItem from="1615130531202" duration="22602000" />
       <workItem from="1615205228822" duration="1253000" />
       <workItem from="1615206527651" duration="29605000" />
-      <workItem from="1615389203393" duration="88267000" />
+      <workItem from="1615389203393" duration="88469000" />
+      <workItem from="1615961245326" duration="6827000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1614772194880</created>
@@ -164,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615737182920</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Gallery is done">
+      <created>1615924253350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615924253351</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +196,8 @@
     <MESSAGE value="refactoring continues. Making Stories" />
     <MESSAGE value="Stories is done" />
     <MESSAGE value="State update (Posts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="State update (Posts)" />
+    <MESSAGE value="Gallery is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gallery is done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

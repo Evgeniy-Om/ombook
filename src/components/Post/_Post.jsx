@@ -21,6 +21,10 @@ const Post = ({post}) => {
          </div>
 
          <Comments comments = {comments}/>
+         <form action="post">
+            <input type="text"/>
+            <button type="submit">Отправить сообщение</button>
+         </form>
       </article>
    )
 }

@@ -22,14 +22,24 @@
 
 ._:hover {
   background-color: #fff;
+  /*overflow: hidden;*/
+}
+
+._:hover .link:not(.active) {
+  color: var(--hover-color);
+}
+
+._:hover .link:not(.active) svg {
+  fill: var(--hover-color);
+}
+
+.active {
+  color: var(--accent-color);
+  background-color: #fff;
+  border-radius: 5px;
   overflow: hidden;
-  color: var(--accent-color);
 }
 
-._:hover .link {
-  color: var(--accent-color);
-}
-
-._:hover svg {
+.active svg {
   fill: var(--accent-color);
 }

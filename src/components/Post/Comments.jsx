@@ -3,7 +3,11 @@ import CommentsItem from "./Comments-Item";
 
 const Comments = ({comments}) => {
    return (
-      <CommentsItem comments = {comments}/>
+      <>
+         <CommentsItem comments = {comments[0]}/>
+         <CommentsItem comments = {comments[0]}/>
+         <CommentsItem comments = {comments[0]}/>
+         </>
    )
 }
 
