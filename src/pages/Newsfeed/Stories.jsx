@@ -1,11 +1,12 @@
 import styles from "./Stories.module.css";
-import StoriesAdd from "./Stories-Add";
+import StoriesAddBtn from "./Stories-AddBtn";
 import StoriesItem from "./Stories-Item";
 
 const Stories = ({stories}) => {
    let storiesItems = stories
-      .map((el) =>
+      .map((el, index) =>
          <StoriesItem
+            key = {index}
             avatarUrl={el.avatarUrl}
             url = {el.url}
             name={el.name}
@@ -15,7 +16,7 @@ const Stories = ({stories}) => {
    return (
       <div className={styles._ + " border"}>
          <p>Stories</p>
-         <StoriesAdd/>
+         <StoriesAddBtn/>
          <ul className={styles.list}>{storiesItems}</ul>
          <a className={styles.showMore} href="#">Show more</a>
 

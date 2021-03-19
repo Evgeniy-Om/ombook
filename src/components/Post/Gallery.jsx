@@ -25,7 +25,7 @@ const Gallery = ({gallery}) => {
    // Массив из 3 первых фотографий
    const el = previewUrl.map((item, i) => {
       return (
-         <a className={styles[sizeClass]} href="#">
+         <a key={i} className={styles[sizeClass]} href="#">
             <img className={styles.image} src={item} alt=""/>
             {
                // Выводим число фотографий, которые ещё есть в галерее

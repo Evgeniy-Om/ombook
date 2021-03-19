@@ -2,16 +2,15 @@ import styles from "./Comments-Item.module.css";
 import Avatar from "./Avatar";
 
 
-const CommentsItem = ({comments}) => {
-   const {author, content} = comments;
+const CommentsItem = ({comment}) => {
+   const {author, content} = comment;
    return (
 
       <div className="comment">
          <Avatar author={author}/>
          <div className="comment__content">
             <p className="comment__text">
-               <a href="#" className="comment-name">Anthony Wood</a> I think I'm crying. It's that
-               classic 🤘
+               <a href="#" className="comment-name">{author.name}</a> {content.text}
             </p>
             <div className="comment__btns">
                <button className="comment__btn btn">

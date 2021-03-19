@@ -4,7 +4,7 @@ import Newsfeed from "../../pages/Newsfeed/_Newsfeed";
 import Messenger from "../../pages/Messenger/_Messenger";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
-function App({state}) {
+function App({state, addComment, updateTextArea}) {
    return (
       <BrowserRouter>
          <div className="App">
@@ -13,7 +13,11 @@ function App({state}) {
                <div className="wrapper">
                   <Switch>
                      <Route path="/newsfeed">
-                        <Newsfeed user={state.user} page={state.newsfeedPage}/>
+                        <Newsfeed user={state.user}
+                                  page={state.newsfeedPage}
+                                  addComment = {addComment}
+                                  updateTextArea={updateTextArea}
+                        />
                      </Route>
                      <Route path="/messenger">
                         <Messenger />

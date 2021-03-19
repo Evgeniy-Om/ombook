@@ -4,7 +4,7 @@ import Stories from "./Stories";
 import Post from "../../components/Post/_Post";
 import Menu from "./Menu";
 
-const Newsfeed = ({user, page}) => {
+const Newsfeed = ({user, page, addComment, updateTextArea}) => {
    return (
       <>
          <aside className="left-sidebar">
@@ -16,7 +16,10 @@ const Newsfeed = ({user, page}) => {
             <Menu/>
          </aside>
          <main className="main">
-            <Post post={page.posts[0]}/>
+            <Post post={page.posts[0]}
+                  addComment = {addComment}
+                  updateTextArea={updateTextArea}
+            />
          </main>
          <aside className="right-sidebar">
             <Stories stories={page.stories}/>

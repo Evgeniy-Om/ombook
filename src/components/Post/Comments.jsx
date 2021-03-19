@@ -2,12 +2,15 @@ import styles from "./Comments.module.css";
 import CommentsItem from "./Comments-Item";
 
 const Comments = ({comments}) => {
+
+   let commentsList = comments.map((item, index) => {
+      return <CommentsItem key={index} comment={item}/>
+   })
+
    return (
-      <>
-         <CommentsItem comments = {comments[0]}/>
-         <CommentsItem comments = {comments[0]}/>
-         <CommentsItem comments = {comments[0]}/>
-         </>
+      <div>
+         {commentsList}
+      </div>
    )
 }
 

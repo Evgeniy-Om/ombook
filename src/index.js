@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App/App';
-import state from "./redux/state";
+import state, {addComment, updateTextArea, subscribe} from "./redux/state";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App state = {state} />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+export const rerender = (state) => {
+   ReactDOM.render(
+      <React.StrictMode>
+         <App state={state} addComment={addComment} updateTextArea={updateTextArea}/>
+      </React.StrictMode>,
+      document.getElementById('root')
+   );
+}
+
+rerender(state);
+
+subscribe(rerender);

@@ -1,3 +1,7 @@
+let rerender = () => {
+   console.log("Что-то там происходит")
+}
+
 const state = {
    user: {
       shortName: "Carolyn",
@@ -48,6 +52,7 @@ const state = {
                hashtags: ["#stateofmind"],
                likes: 93291,
                totalComments: 37,
+               textArea: 'Om',
                comments: [
                   {
                      author: {
@@ -75,12 +80,41 @@ const state = {
                            }
                         ]
                      }
-                  }
+                  },
                ]
             }
          }
       ]
    }
+}
+
+export const addComment = (message) => {
+
+   let myComment = {
+      author: {
+         name: "Kathleen Campbell",
+         avatarUrl: "images/avatar-3.jpg",
+         profileUrl: "#",
+      },
+      content: {
+         date: "Today at 1:08 AM",
+         text: message,
+         hashtags: "#stateofmind",
+         likes: 21,
+      }
+   }
+   state.newsfeedPage.posts[0].content.comments.push(myComment);
+   rerender(state);
+   state.newsfeedPage.posts[0].content.textArea = "";
+}
+
+export const updateTextArea = (text) => {
+   state.newsfeedPage.posts[0].content.textArea = text;
+   rerender(state);
+}
+
+export const subscribe = (observer) => {
+   rerender = observer;
 }
 
 export default state;
