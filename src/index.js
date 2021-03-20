@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App/App';
-import state, {addComment, updateTextArea, subscribe} from "./redux/state";
+import store from "./redux/state";
 
 
-export const rerender = (state) => {
+const rerender = (store) => {
    ReactDOM.render(
       <React.StrictMode>
-         <App state={state} addComment={addComment} updateTextArea={updateTextArea}/>
+         <App store={store}/>
       </React.StrictMode>,
       document.getElementById('root')
    );
 }
 
-rerender(state);
+rerender(store);
 
-subscribe(rerender);
+store.subscribe(rerender);

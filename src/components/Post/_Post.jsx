@@ -5,21 +5,23 @@ import Header from "./Header";
 import Text from "./Text";
 import Gallery from "./Gallery";
 import Comments from "./Comments";
-import React from 'react';
+import {createRef} from 'react';
 
 
-const Post = ({post, addComment, updateTextArea}) => {
+const Post = ({post, dispatch}) => {
    const {author, content} = post,
-      {comments, type, text, hashtags, likes, totalComments, date, gallery, textArea} = content;
+      {comments, type, text, hashtags, likes, totalComments, date, gallery, inputText} = content;
 
-   const newCommentElement = React.createRef();
+   const newCommentElement = createRef();
+
    const add = () => {
-      addComment(textArea);
+      dispatch({type: "ADD-COMMENT"})
    }
 
    const update = () => {
-      let textCom = newCommentElement.current.value;
-      updateTextArea(textCom);
+      let newText = newCommentElement.current.value;
+      const action = {type: "UPDATE-INPUT-TEXT", newText: newText};
+      dispatch(action);
    }
 
    return (
@@ -35,7 +37,7 @@ const Post = ({post, addComment, updateTextArea}) => {
 
          <Comments comments={comments}/>
          <form>
-            <input onChange={update} ref={newCommentElement} type="text" value={textArea}/>
+            <input onChange={update} ref={newCommentElement} type="text" value={inputText}/>
             <button onClick={add} type="button">Отправить сообщение</button>
          </form>
       </article>

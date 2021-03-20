@@ -32,7 +32,6 @@ const MenuItem = ({type}) => {
       default:
          icon = null;
    }
-   console.log(type.toLowerCase());
    return (
       <li className={styles._ + " border"}>
          <NavLink activeClassName={styles.active} className={styles.link} to={`/${type.toLowerCase()}`}>{icon}{type}</NavLink>

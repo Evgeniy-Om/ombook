@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="931163ff-8bf6-4527-a5bd-235bbe481eb9" name="Default Changelist" comment="avatar component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Comments-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Comments-Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Comments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/Gallery.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Post/_Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/_Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Add.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-AddBtn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Add.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-AddBtn.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
@@ -48,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSPX" />
+    <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -92,7 +87,7 @@
       <workItem from="1615205228822" duration="1253000" />
       <workItem from="1615206527651" duration="29605000" />
       <workItem from="1615389203393" duration="88469000" />
-      <workItem from="1615961245326" duration="28002000" />
+      <workItem from="1615961245326" duration="39116000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1614772194880</created>
@@ -164,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615972609602</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create observer. Set up sending comment to BLL and from BLL">
+      <created>1616184506496</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616184506496</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +207,8 @@
     <MESSAGE value="State update (Posts)" />
     <MESSAGE value="Gallery is done" />
     <MESSAGE value="add react-router-dom and change &lt;a&gt; to Link. Create component &quot;Menu&quot; in Newsfeed" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react-router-dom and change &lt;a&gt; to Link. Create component &quot;Menu&quot; in Newsfeed" />
+    <MESSAGE value="create observer. Set up sending comment to BLL and from BLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="create observer. Set up sending comment to BLL and from BLL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
