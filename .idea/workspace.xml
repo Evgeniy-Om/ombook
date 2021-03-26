@@ -3,12 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="931163ff-8bf6-4527-a5bd-235bbe481eb9" name="Default Changelist" comment="avatar component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/_Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Post/_Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu-Item.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-AddBtn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-AddBtn.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories-Item.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/Stories.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsfeed/_Newsfeed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +65,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,11 +78,11 @@
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\Post" />
-      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\Header" />
-      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components" />
       <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed" />
-      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\App" />
+      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed\components" />
+      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed\components\Menu\components" />
+      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\pages\Newsfeed\components\Menu" />
+      <recent name="C:\Users\User\Desktop\React-projects\projects\ombook\src\components\Post" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +99,8 @@
       <workItem from="1615205228822" duration="1253000" />
       <workItem from="1615206527651" duration="29605000" />
       <workItem from="1615389203393" duration="88469000" />
-      <workItem from="1615961245326" duration="39116000" />
+      <workItem from="1615961245326" duration="45075000" />
+      <workItem from="1616759882402" duration="11742000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1614772194880</created>
@@ -166,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616184506496</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1. refactoring state to store. 2. Converting functions to methods of Class in state.js.">
+      <created>1616269156080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616269156081</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +228,8 @@
     <MESSAGE value="Gallery is done" />
     <MESSAGE value="add react-router-dom and change &lt;a&gt; to Link. Create component &quot;Menu&quot; in Newsfeed" />
     <MESSAGE value="create observer. Set up sending comment to BLL and from BLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="create observer. Set up sending comment to BLL and from BLL" />
+    <MESSAGE value="1. refactoring state to store. 2. Converting functions to methods of Class in state.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. refactoring state to store. 2. Converting functions to methods of Class in state.js." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

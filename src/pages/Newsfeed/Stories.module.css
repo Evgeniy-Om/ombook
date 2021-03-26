@@ -13,3 +13,72 @@
     color: var(--accent-color);
     font-size: 12px;
 }
+
+
+
+.addBtn {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.addBtn svg {
+    margin-right: 15px;
+}
+
+.addBtn:hover rect {
+    stroke: #7540EE;
+}
+
+.addBtn:hover rect + rect {
+    fill: #7540EE;
+}
+
+.addBtn:hover path {
+    fill: #fff;
+}
+
+
+
+.item {
+    margin-bottom: 15px;
+
+    color: var(--secondary-color);
+}
+.item > a {
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px;
+}
+
+.time {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--secondary-color);
+}
+
+.avatar {
+    flex-shrink: 0;
+    position: relative;
+
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+}

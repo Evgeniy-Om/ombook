@@ -1,8 +1,8 @@
 import styles from "./_Newsfeed.module.css";
-import User from "./User";
-import Stories from "./Stories";
 import Post from "../../components/Post/_Post";
+import User from "./User";
 import Menu from "./Menu";
+import Stories from "./Stories";
 
 const Newsfeed = ({user, page, dispatch}) => {
    return (
